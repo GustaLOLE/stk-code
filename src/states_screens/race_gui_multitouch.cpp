@@ -220,8 +220,8 @@ void RaceGUIMultitouch::createRaceGUI()
 
     // Buttons grid adjusting variables
     float grid_spacing = UserConfigParams::m_buttons_spacing;
-    float grid_pos_x = UserConfigParams::m_buttons_spacing;
-    float grid_pos_y = UserConfigParams::m_buttons_spacing;
+    float grid_pos_x = UserConfigParams::m_buttons_pos_x;
+    float grid_pos_y = UserConfigParams::m_buttons_pos_y;
 
     // Columns of buttons grid variables
     float col1_button_x = w - grid_pos_x * col_size;
